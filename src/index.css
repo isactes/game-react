@@ -6,7 +6,11 @@
 
 body{
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--purple2-color);
 }
 
 ol,
@@ -25,8 +29,8 @@ ul{
 }
 
 .square {
-    background: var(--purple2-color);
-    border: 1px solid var(--dark-color);
+    background: var(--purple-color);
+    border: 2px solid var(--dark-color);
     float: left;
     font-size: 24px;
     font-weight: bold;
@@ -44,7 +48,7 @@ ul{
 }
 
 .kbd-navagation .square:focus{
-    background: #ddd;
+    background: var(--purple2-color);
 }
 
 .game {
