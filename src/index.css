@@ -2,6 +2,8 @@
     --purple-color: #B602FF;
     --dark-color: #000000;
     --purple2-color: #540175;
+    --pink-color: #F9A1EF;
+    --white-color: #fff;
 }
 
 body{
@@ -10,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--purple2-color);
+    background: var(--pink-color);
 }
 
 ol,
@@ -32,7 +34,7 @@ ul{
     background: var(--purple-color);
     border: 2px solid var(--dark-color);
     float: left;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 34px;
     height: 34px;
@@ -54,8 +56,28 @@ ul{
 .game {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    margin: auto;
+    height: fit-content;
 }
 
 .game-info{
+    margin: 10px;
     margin-left: 20px;
+}
+
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin: 5px 5px;
+    border-radius: 10px;
+    background: var(--purple-color);
+    color: var(--white-color);
+}
+
+.move-selec {
+    font-weight: var(--purple-color);
+    border: 1px solid var(--dark-color);
 }
